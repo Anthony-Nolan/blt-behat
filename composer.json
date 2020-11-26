@@ -1,11 +1,11 @@
 {
-  "name": "acquia/blt-behat",
+  "name": "anthony-nolan/blt-behat",
   "description": "Behat integration for Acquia BLT",
   "license": "GPL-2.0+",
   "authors":[
     {
-      "name": "Acquia Engineering",
-      "homepage": "https://www.acquia.com",
+      "name": "Anthony Nolan Engineering",
+      "homepage": "https://www.anthonynolan.org",
       "role": "Maintainer"
     }
   ],
