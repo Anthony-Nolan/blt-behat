@@ -172,6 +172,7 @@ class BehatTestCommand extends TestsCommandBase {
         ->option('config', $this->getConfigValue('behat.config'))
         ->option('profile', $this->getConfigValue('behat.profile'))
         ->option('tags', $this->getConfigValue('behat.tags'))
+        ->option('format', 'junit')
         ->interactive($this->input()->isInteractive());
 
       if ($this->output()->getVerbosity() >= OutputInterface::VERBOSITY_NORMAL) {
